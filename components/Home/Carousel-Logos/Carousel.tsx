@@ -1,6 +1,6 @@
 import React from 'react'
 import { montserrat } from '@/app/layout'
-
+import Image from 'next/image';
 const logos = [
   '/images/dribble.png',
   '/images/awwwards.png',
@@ -23,7 +23,7 @@ const Carousel = () => {
       <div className="flex w-max scroll-loop">
         {[...logos, ...logos].map((src, i) => (
           <div key={i} className="w-[20vw] flex justify-center items-center px-4">
-            <img
+            <Image
               src={src}
               alt="Logo"
               className="h-14 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition duration-300"

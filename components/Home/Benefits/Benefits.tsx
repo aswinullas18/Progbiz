@@ -1,5 +1,6 @@
 import { montserrat } from '@/app/layout'
 import React from 'react'
+import Image from 'next/image'
 
 const benefitImages = [
   {
@@ -63,7 +64,7 @@ const Benefits = () => {
               key={index}
               className="rounded-xl overflow-hidden text-white p-4 w-full h-auto flex flex-col"
             >
-              <img
+              <Image
                 src={item.image}
                 alt={item.title}
                 className="w-full h-[200px] sm:h-[220px] md:h-[238px] rounded-lg mb-4"

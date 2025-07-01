@@ -1,8 +1,5 @@
 import React from 'react'
-import { Inter } from 'next/font/google'
-import { Montserrat } from 'next/font/google'
 import { NavLinks } from '@/constant/constant'
-import { link } from 'fs'
 import { inter,montserrat } from '@/app/layout'
 import { FaAngleRight } from 'react-icons/fa';
 import Link from 'next/link'

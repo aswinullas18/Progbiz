@@ -7,6 +7,7 @@ import {
   FaBehance,
   FaDribbble,
 } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -52,7 +53,7 @@ const Footer = () => {
               </button>
             ))}
             <button className="w-10 h-10 flex items-center justify-center rounded-full border border-[#313131] hover:border-white transition">
-              <img
+              <Image
                 src="/images/Logo-2.png"
                 alt="Logo"
                 className="w-[15px] h-[15px]"
