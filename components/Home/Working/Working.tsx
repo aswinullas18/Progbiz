@@ -1,5 +1,5 @@
 import React from 'react'
-import { montserrat } from '@/app/layout'
+import { montserrat } from '@/lib/font'
 
 const steps = [
   {
