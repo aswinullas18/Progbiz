@@ -1,6 +1,7 @@
 import { montserrat } from '@/app/layout';
 import React from 'react';
 import { FaAngleRight, FaCheck } from 'react-icons/fa';
+import Image from 'next/image';
 
 const standardFeatures = [
   "Unlimited requests",
@@ -52,7 +53,7 @@ const Pricing = () => {
           <div className="grid grid-rows-2">
             <div></div>
             <div>
-              <p className={`text-[#a6a6a6] text-[16px] font-normal ${montserrat.className}`}>What's included:</p>
+              <p className={`text-[#a6a6a6] text-[16px] font-normal ${montserrat.className}`}>{"What's included:"}</p>
             </div>
           </div>
           <ul className="space-y-3 py-2">
@@ -77,7 +78,7 @@ const Pricing = () => {
         <div className="bg-[#141414] border border-[#313131] rounded-3xl p-6 relative overflow-hidden">
           <div className="absolute top-0 right-6 bg-[#F3FF11]/20 px-4 py-2 rounded-b-lg z-10 shadow-md flex items-center gap-2">
             <p className={`text-[#FFBE0D] font-normal text-sm ${montserrat.className}`}>Faster</p>
-            <img src="/images/Bolt.png" alt="Bolt Icon" className="h-[14px]" />
+            <Image src="/images/Bolt.png" alt="Bolt Icon" className="h-[14px]" />
           </div>
 
           <p className={`text-[#a6a6a6] text-[16px] font-normal ${montserrat.className}`}>PRO</p>
@@ -90,7 +91,7 @@ const Pricing = () => {
           <div className="grid grid-rows-2">
             <div></div>
             <div>
-              <p className={`text-[#a6a6a6] text-[16px] font-normal ${montserrat.className}`}>What's included:</p>
+              <p className={`text-[#a6a6a6] text-[16px] font-normal ${montserrat.className}`}>{"What's included:"}</p>
             </div>
           </div>
           <ul className="space-y-3 py-2">
@@ -124,7 +125,7 @@ const Pricing = () => {
               <div></div>
               <div></div>
               <div>
-                <p className={`text-[#a6a6a6] text-[16px] font-normal ${montserrat.className}`}>What's included:</p>
+                <p className={`text-[#a6a6a6] text-[16px] font-normal ${montserrat.className}`}>{"What's included:"}</p>
               </div>
             </div>
             <ul className="space-y-3 py-2">

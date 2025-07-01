@@ -1,5 +1,6 @@
 import React from 'react';
 import { montserrat } from '@/app/layout';
+import Image from 'next/image';
 
 const Proj = () => {
   return (
@@ -16,12 +17,12 @@ const Proj = () => {
       </div>
 
       <div className="relative sm:col-span-7 min-h-[323px] rounded-3xl bg-[#141414] border border-[#313131] flex items-center justify-center px-12 sm:px-20 text-white">
-        <img
+        <Image
           src="/images/left-vector.png"
           alt="left quote"
           className="absolute left-4 sm:left-6 top-1/2 -translate-y-1/2 w-[37px] h-[82.75px]"
         />
-        <img
+        <Image
           src="/images/right-vector.png"
           alt="right quote"
           className="absolute right-4 sm:right-6 top-1/2 -translate-y-1/2 w-[37px] h-[82.75px]"
@@ -51,7 +52,7 @@ const Proj = () => {
           <div className="sm:col-span-7 sm:ml-8">
             <div>
               <p className={`text-[16px] text-left leading-[23.2px] font-normal tracking-[0] text-white ${montserrat.className}`}>
-                We are a global collective of diverse designers and developers, partnering with brands of all scales. What distinguishes us is our dedication to crafting memorable, user-friendly, and captivating experiences — it's what we excel at. The projects we deliver combine creative vision with practical execution, resulting in solutions that are both distinctive and impactful.
+                We are a global collective of diverse designers and developers, partnering with brands of all scales. What distinguishes us is our dedication to crafting memorable, user-friendly, and captivating experiences — {"it's"} what we excel at. The projects we deliver combine creative vision with practical execution, resulting in solutions that are both distinctive and impactful.
               </p>
             </div>
             <div className="flex items-center mt-14 relative">
@@ -67,7 +68,7 @@ const Proj = () => {
                   Founder and CEO
                 </p>
               </div>
-              <img
+              <Image
                 src="/images/right-vector.png"
                 alt="Right vector"
                 className="w-[37px] h-[82.75px] ml-4"

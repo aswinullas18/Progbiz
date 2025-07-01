@@ -1,6 +1,7 @@
 import React from 'react'
 import { montserrat } from '@/app/layout'
 import { FaAngleRight } from 'react-icons/fa'
+import Image from 'next/image'
 
 const portfoliImages = [
   {
@@ -59,7 +60,7 @@ export default function Portfolio() {
             <p
               className={`absolute bottom-4 right-4 w-[280px] sm:w-[320px] md:w-[356px] h-[70px] font-normal text-[14px] sm:text-[15px] md:text-[16px] leading-[23.2px] tracking-[0] align-middle text-white text-left ${montserrat.className}`}
             >
-              From tech startups to healthcare giants, e-commerce pioneers to edtech, we've left our mark on diverse domains.
+              From tech startups to healthcare giants, e-commerce pioneers to edtech, {'we&apos;ve'} left our mark on diverse domains.
             </p>
           </div>
         </div>
@@ -70,7 +71,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {portfoliImages.map((portfoliImages, index) => (
             <div key={index} className="relative rounded-3xl overflow-hidden">
-              <img
+              <Image
                 src={portfoliImages.image}
                 alt={`Project ${index + 1}`}
                 className="w-full h-full object-cover"
