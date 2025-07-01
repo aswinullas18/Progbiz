@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLinks } from '@/constant/constant'
-import { inter,montserrat } from '@/app/layout'
+import { inter,montserrat } from '@/lib/font'
 import { FaAngleRight } from 'react-icons/fa';
 import Link from 'next/link'
 

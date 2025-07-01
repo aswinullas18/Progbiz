@@ -1,4 +1,4 @@
-import { montserrat } from '@/app/layout'
+import { montserrat } from '@/lib/font'
 import React from 'react'
 import { LuPlus } from 'react-icons/lu';
 

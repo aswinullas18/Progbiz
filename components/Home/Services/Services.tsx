@@ -1,4 +1,4 @@
-import { montserrat } from '@/app/layout'
+import { montserrat } from '@/lib/font'
 import React from 'react'
 
 const serviceRow1 = ["UI/UX design", "Graphic design", "Logo design", "Branding", "Animation"]

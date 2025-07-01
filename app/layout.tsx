@@ -1,18 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
-import ResponsiveNav from "@/components/Home/Navbar/ResponsiveNav";
+import { montserrat, inter } from '@/lib/font'
 
-export const montserrat = Montserrat ({
-  weight:['100','200','300','400','500','600','700','800','900'],
-  variable:'--font-montserrat',
-  subsets:["latin"]
-})
-export const inter = Inter ({
-  weight:['600'],
-  variable:'--font-inter',
-  subsets:["latin"]
-})
   
 export const metadata: Metadata = {
   title: "Test App Progribz",
@@ -26,12 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.className} ${inter.className} font-sans bg-black`}
-      >
-        <ResponsiveNav/>
-        {children}
-      </body>
-    </html>
+  <body className={`${montserrat.className} ${inter.className} font-sans`}>
+    
+  </body>
+</html>
   );
 }

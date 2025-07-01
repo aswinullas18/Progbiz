@@ -1,4 +1,4 @@
-import { montserrat } from '@/app/layout';
+import { montserrat } from '@/lib/font';
 import { FaAngleRight } from 'react-icons/fa';
 
 const Hero = () => {

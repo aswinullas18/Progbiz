@@ -1,4 +1,4 @@
-import { montserrat } from '@/app/layout';
+import { montserrat } from '@/lib/font';
 import React from 'react';
 import { FaAngleRight, FaCheck } from 'react-icons/fa';
 import Image from 'next/image';

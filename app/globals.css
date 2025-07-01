@@ -66,12 +66,6 @@
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
-.bg-rotated {
-  background-image: url('/images/HeroBg.jpg');
-  background-size: cover;
-  background-position: center;
-  transform: rotate(180deg);
-}
 
 @keyframes scroll {
   0% { transform: translateY(0); }
