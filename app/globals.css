@@ -1,0 +1,82 @@
+@import "tailwindcss";
+:root {
+  --font-montserrat: 'Montserrat', sans-serif;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.scroll-loop {
+  animation: scroll-left 40s linear infinite;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scrollRight {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.infinite-scroll {
+  display: flex;
+  width: fit-content;
+  animation: scrollLeft 25s linear infinite;
+}
+
+.infinite-scroll-reverse {
+  display: flex;
+  width: fit-content;
+  animation: scrollRight 30s linear infinite;
+}
+
+.masonry {
+  column-count: 1;
+  column-gap: 1.5rem;
+}
+@media (min-width: 640px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.bg-rotated {
+  background-image: url('/images/HeroBg.jpg');
+  background-size: cover;
+  background-position: center;
+  transform: rotate(180deg);
+}
+
+@keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+.animate-scroll {
+  animation: scroll 60s linear infinite;
+}
