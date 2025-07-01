@@ -1,10 +1,9 @@
 import React from 'react';
 import { montserrat } from '@/lib/font';
-import Image from 'next/image';
 
 const Proj = () => {
   return (
-    <div className="m-4 grid grid-cols-1 gap-6 sm:grid-cols-12 z-[10003] p-5">
+    <div className="m-4 grid grid-cols-1 gap-6 sm:grid-cols-12 z-[10003] p-5  bg-black">
       
       <div className="sm:col-span-5 min-h-[323px] rounded-3xl p-1 border bg-[#141414] flex items-center justify-center">
         <video
@@ -17,12 +16,12 @@ const Proj = () => {
       </div>
 
       <div className="relative sm:col-span-7 min-h-[323px] rounded-3xl bg-[#141414] border border-[#313131] flex items-center justify-center px-12 sm:px-20 text-white">
-        <Image
+        <img
           src="/images/left-vector.png"
           alt="left quote"
           className="absolute left-4 sm:left-6 top-1/2 -translate-y-1/2 w-[37px] h-[82.75px]"
         />
-        <Image
+        <img
           src="/images/right-vector.png"
           alt="right quote"
           className="absolute right-4 sm:right-6 top-1/2 -translate-y-1/2 w-[37px] h-[82.75px]"
@@ -68,7 +67,7 @@ const Proj = () => {
                   Founder and CEO
                 </p>
               </div>
-              <Image
+              <img
                 src="/images/right-vector.png"
                 alt="Right vector"
                 className="w-[37px] h-[82.75px] ml-4"

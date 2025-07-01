@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const Nav = () => {
   return(
-   <div className="bg-[url(/images/HeroBg.jpg)] max-w-full bg-cover bg-center py-14  h-[300px] sm:px-8">
-      <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-6">
+   <div className="bg-[url(/images/HeroBg.jpg)] max-w-full bg-cover bg-center py-14 h-[260px] sm:px-8">
+      <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-6 bg-transparent ">
         {/* Logo */}
        <div className={`text-white text-[40px] font-semibold leading-[100%] tracking-[0] align-middle ${inter.className}`}>
          LOGO

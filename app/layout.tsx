@@ -8,16 +8,13 @@ export const metadata: Metadata = {
   description: "Test page using next js 15",
 };
 
-export default function RootLayout({
-  
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-  <body className={`${montserrat.className} ${inter.className} font-sans`}>
-    
-  </body>
-</html>
-  );
+      <body  className={`bg-black ${montserrat.className} ${inter.className} font-sans`}>
+        <div>Hello from layout</div>
+        {children}
+      </body>
+    </html>
+  )
 }

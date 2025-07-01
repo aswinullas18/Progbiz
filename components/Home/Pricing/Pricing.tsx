@@ -1,7 +1,6 @@
 import { montserrat } from '@/lib/font';
 import React from 'react';
 import { FaAngleRight, FaCheck } from 'react-icons/fa';
-import Image from 'next/image';
 
 const standardFeatures = [
   "Unlimited requests",
@@ -78,7 +77,7 @@ const Pricing = () => {
         <div className="bg-[#141414] border border-[#313131] rounded-3xl p-6 relative overflow-hidden">
           <div className="absolute top-0 right-6 bg-[#F3FF11]/20 px-4 py-2 rounded-b-lg z-10 shadow-md flex items-center gap-2">
             <p className={`text-[#FFBE0D] font-normal text-sm ${montserrat.className}`}>Faster</p>
-            <Image src="/images/Bolt.png" alt="Bolt Icon" className="h-[14px]" />
+            <img src="/images/Bolt.png" alt="Bolt Icon" className="h-[14px]" />
           </div>
 
           <p className={`text-[#a6a6a6] text-[16px] font-normal ${montserrat.className}`}>PRO</p>

@@ -1,8 +1,13 @@
 @import "tailwindcss";
+@tailwind utilities;
 :root {
   --font-montserrat: 'Montserrat', sans-serif;
 }
 
+html,body{
+  margin: 0;
+  padding: 0;
+}
 @keyframes scroll-left {
   0% {
     transform: translateX(0);

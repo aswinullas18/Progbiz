@@ -1,7 +1,6 @@
 import React from 'react'
 import { montserrat } from '@/lib/font'
 import { FaAngleRight } from 'react-icons/fa'
-import Image from 'next/image'
 
 const portfoliImages = [
   {
@@ -32,7 +31,7 @@ const portfoliImages = [
 
 export default function Portfolio() {
   return (
-    <div className="bg-black text-white justify-center">
+    <div className="bg-black text-white justify-center ">
       {/* Hero Section */}
       <div className="m-4 p-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 min-h-[181px]">
@@ -71,7 +70,7 @@ export default function Portfolio() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {portfoliImages.map((portfoliImages, index) => (
             <div key={index} className="relative rounded-3xl overflow-hidden">
-              <Image
+              <img
                 src={portfoliImages.image}
                 alt={`Project ${index + 1}`}
                 className="w-full h-full object-cover"

@@ -1,6 +1,5 @@
 import React from 'react'
 import { montserrat } from '@/lib/font'
-import Image from 'next/image';
 const logos = [
   '/images/dribble.png',
   '/images/awwwards.png',
@@ -9,7 +8,7 @@ const logos = [
 ];
 const Carousel = () => {
   return (
-   <div className="w-full flex flex-col  items-center justify-center relative z-[10005] py-10">
+   <div className="w-full flex flex-col  items-center justify-center relative z-[10005] py-10  bg-black">
   <p
     className={`text-[16px] leading-[23.2px] font-normal tracking-[0] text-center align-middle text-[#A6A6A6] ${montserrat.className}`}
   >
@@ -23,7 +22,7 @@ const Carousel = () => {
       <div className="flex w-max scroll-loop">
         {[...logos, ...logos].map((src, i) => (
           <div key={i} className="w-[20vw] flex justify-center items-center px-4">
-            <Image
+            <img
               src={src}
               alt="Logo"
               className="h-14 w-auto grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition duration-300"

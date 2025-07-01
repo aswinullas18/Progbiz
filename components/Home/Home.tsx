@@ -10,9 +10,11 @@ import Pricing from './Pricing/Pricing'
 import Insights from './Insights/Insights'
 import Testimonials from './Testimonials/Testimonials'
 import Footer from './Footer/Footer'
+import ResponsiveNav from './Navbar/ResponsiveNav'
 
 const Home = () => {
   return <div className='overflow-hidden'>
+    <ResponsiveNav/>
     <Hero/>
     <Proj/>
     <Carousel/>

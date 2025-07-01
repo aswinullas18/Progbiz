@@ -1,6 +1,5 @@
 import { montserrat } from '@/lib/font'
 import React from 'react'
-import Image from 'next/image'
 
 const benefitImages = [
   {
@@ -37,7 +36,7 @@ const benefitImages = [
 
 const Benefits = () => {
   return (
-    <div className="flex flex-col justify-center items-center py-10 px-4 sm:px-6 md:px-8">
+    <div className="flex flex-col justify-center items-center py-10 px-4 sm:px-6 md:px-8 bg-black">
   
       <button className="w-[96px] h-[43px] px-[18px] py-[11px] rounded-[30px] border border-[#363804] bg-[#171802] text-[#FFBE0D]">
         <p
@@ -64,7 +63,7 @@ const Benefits = () => {
               key={index}
               className="rounded-xl overflow-hidden text-white p-4 w-full h-auto flex flex-col"
             >
-              <Image
+              <img
                 src={item.image}
                 alt={item.title}
                 className="w-full h-[200px] sm:h-[220px] md:h-[238px] rounded-lg mb-4"

@@ -1,5 +1,4 @@
 import { montserrat } from '@/lib/font'
-import Image from "next/image";
 
 export default function Testimonials() {
   const testimonials = [
@@ -118,7 +117,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center py-10 px-4 sm:px-6 md:px-8">
+    <div className="flex flex-col justify-center items-center py-10 px-4 sm:px-6 md:px-8  bg-black">
       <button className="px-[18px] py-[11px] rounded-[30px] border border-[#363804] bg-[#171802] text-[#FFBE0D]">
         <p className={`text-[14px] leading-[20.3px] ${montserrat.className}`}>Testimonials</p>
       </button>
@@ -136,7 +135,7 @@ export default function Testimonials() {
               <div key={idx} className="masonry-item bg-[#141414] rounded-[32px] px-6 py-8 border border-[#313131] flex flex-col h-full">
                 <div className="grid sm:grid-cols-12 gap-6 items-start mb-6">
                   <div className="col-span-3 w-[51px] h-[51px] rounded-full overflow-hidden">
-                    <Image src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                    <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
                   </div>
                   <div className="col-span-9 flex flex-col justify-center">
                     <h4 className={`text-[#ffffff] leading-[23.2px] text-[16px] font-normal ${montserrat.className}`}>{item.name}</h4>

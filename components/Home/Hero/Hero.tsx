@@ -4,7 +4,7 @@ import { FaAngleRight } from 'react-icons/fa';
 const Hero = () => {
   return (
     
-    <div className="relative w-full h-screen flex items-center justify-center text-center -mt-34 z-1 px-4 overflow-visible">
+    <div className="relative w-full h-screen flex items-center  bg-black justify-center text-center -mt-34 z-1 px-4 overflow-visible">
       <div className="w-full sm:w-[90%] md:w-[80%] max-w-screen-xl mx-auto flex flex-col items-center space-y-4">
         <h1
           className={`text-[36px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-medium leading-[110%] sm:leading-[72px] md:leading-[77.7px] tracking-[0] text-center align-middle text-white ${montserrat.className}`}
