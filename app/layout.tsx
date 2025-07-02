@@ -5,7 +5,7 @@ import { ReactNode } from "react";
 
   
 export const metadata: Metadata = {
-  title: "Test App Progribz",
+  title: "Test App Progbiz",
   description: "Test page using next js 15",
 };
 
