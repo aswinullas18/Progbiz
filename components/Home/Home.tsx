@@ -13,7 +13,7 @@ import Footer from './Footer/Footer'
 import ResponsiveNav from './Navbar/ResponsiveNav'
 
 const Home = () => {
-  return <div className='overflow-hidden'>
+  return <div >
     <ResponsiveNav/>
     <Hero/>
     <Proj/>

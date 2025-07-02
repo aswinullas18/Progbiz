@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`bg-black ${montserrat.className} ${inter.className} font-sans`}>
-        <div>Hello from layout</div>
+        
         {children}
       </body>
     </html>
