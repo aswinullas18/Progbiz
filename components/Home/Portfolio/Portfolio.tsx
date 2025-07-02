@@ -4,7 +4,7 @@ import { FaAngleRight } from 'react-icons/fa'
 
 const portfoliImages = [
   {
-    image: "/images/Portfolio-img1.jpg",
+    image: "/images/Portfolio-img1.png",
     text: "Slipery moneys - e-commerce platform for high risk industries",
   },
   {
