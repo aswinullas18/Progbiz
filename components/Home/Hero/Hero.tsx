@@ -20,7 +20,7 @@ const Hero = () => {
           Skip the hassle of finding the perfect full-time designer or studio
         </p>
 
-        <button className={`group mt-2 sm:mt-4 flex items-center gap-2 bg-transparent border border-[#FFBE0D] text-white font-medium text-[14px] sm:text-[16px] leading-[23.2px] px-5 sm:px-6 py-2 rounded-full hover:bg-[#FFBE0D] hover:text-black transition ${montserrat.className}`}>
+        <button className={`group mt-2 sm:mt-4 flex items-center gap-2 bg-[#FFBE0D] border  text-black font-medium text-[14px] sm:text-[16px] leading-[23.2px] px-5 sm:px-6 py-2 rounded-full hover:bg-transparent hover:text-black transition ${montserrat.className}`}>
           Connect-us
           <FaAngleRight className="text-[#FFBE0D] text-lg group-hover:translate-x-1 transition-transform" />
         </button>
