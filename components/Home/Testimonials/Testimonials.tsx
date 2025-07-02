@@ -146,7 +146,7 @@ export default function Testimonials() {
                 <p className={`text-[#a6a6a6] leading-[23.2px] text-[16px] font-normal ${montserrat.className}`}>“{item.text}”</p>
 
                 <div className="mt-auto flex items-center justify-between">
-                  <span className="text-base font-medium flex items-center gap-2">
+                  <span className="text-white font-normal flex items-center gap-2">
                     {item.brand}
                     <span className="flex">
                       {[...Array(item.rating)].map((_, i) => (
